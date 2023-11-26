@@ -13,39 +13,40 @@
 <body>
 
     <header class="header"> 
-
-        <img class="header-logo" src="images/logo.svg" alt="logo">
+        
+            <img class="header--logo" src="images/logo.svg" alt="logo">
+       
 
         <nav class="menu">
-            <a href="last-minute.html">Last minute</a>
-            <a href="destinace.html">Destinace</a>
-            <a href="index.html">Časté dotazy</a>
+            <a class="menu__item" href="last-minute.html">Last minute</a>
+            <a class="menu__item" href="destinace.html">Destinace</a>
+            <a class="menu__item" href="index.html">Časté dotazy</a>
         </nav>     
 
     </header>    
 
-    <main class="main"></main>
+    <main class="main">
 
         <!-- sekce 1 - top zajezdy -->
-        <section class="section">
+        <section class="section top-trips">
             <div class="grid">
                
-                <div class="trip">
-                    <img class="trip__photo" src="images/palmy.png" alt="">
+                <div class="trip palms-homepage">
+                    <div class="trip__photo"><img src="images/palmy.png" alt=""></div>
                     <div class="trip__price">17 600 Kč</div>
-                    <h3 class="trip__title--big">Pohoda pod palmami</h3>
+                    <h3 class="trip__title">Pohoda pod palmami</h3>
                     <p class="trip__description">Nejlepší dovolená pro nejvíc nejlínější lidi na světě</p>
                     
                 </div>
 
-                <div class="trip">
-                    <img class="trip__photo" src="images/jezero2.png" alt="">
+                <div class="trip lake-homepage">
+                    <div class="trip__photo"><img src="images/jezero2.png" alt=""></div>
                     <div class="trip__price">8 490 Kč</div>
                     <h3 class="trip__title">Klid u jezera</h3>
                 </div>
 
-                <div class="trip">
-                    <img class="trip__photo" src="images/nakole.png" alt="">
+                <div class="trip bycicle-homepage">
+                    <div class="trip__photo"><img src="images/nakole.png" alt=""></div>
                     <div class="trip__price">4 990 Kč</div>
                     <h3 class="trip__title">Výlet na kole</h3>
                 </div>
@@ -56,56 +57,65 @@
 
 
         <!-- sekce 2 - podpora a servis -->
-        <section class="section">
+        <section class="section service">
             <div class="box box--service">
-                <img class="box__icon" src="images/map.svg">
-                <h4 class="box__title">Podpora na místě</h4>
-                <p class="box__text">V cílové destinaci jsou k dispozici naši delegáti, kteří vám vždy rádi poradí.</p>
+                <div class="box__icon"><img  src="images/map.svg"></div>
+                <div class="box__text"> 
+                    <h4 class="box__title">Podpora na místě</h4>
+                    <p class="box__description">V cílové destinaci jsou k dispozici naši delegáti, kteří vám vždy rádi poradí.</p>
+                </div>
+
             </div>
 
             <div class="box box--service">
-                <img class="box__icon" src="images/plane.svg">
-                <h4 class="box__title">Podpora na místě</h4>
-                <p class="box__text">V cílové destinaci jsou k dispozici naši delegáti, kteří vám vždy rádi poradí.</p>
+                <div class="box__icon"><img src="images/plane.svg"></div>
+                <div class="box__text"> 
+                    <h4 class="box__title">Služby na letišti</h4>
+                    <p class="box__description">Při odletu tam i zpět za vás odbavíme vaše zavadla. Na letišti nebudete čekat.</p>
+                </div>
+            </div>
+
+            <div class="box box--service" >
+                <div class="box__icon"><img src="images/globe.svg"></div>
+                <div class="box__text"> 
+                    <h4 class="box__title">Do celého světa</h4>
+                    <p class="box__description">Nabízíme pravidelné slevy na vybraných destinací na všech kontinentech.</p>
+                </div>
             </div>
 
             <div class="box box--service">
-                <img class="box__icon" src="images/globe.svg">
-                <h4 class="box__title">Podpora na místě</h4>
-                <p class="box__text">V cílové destinaci jsou k dispozici naši delegáti, kteří vám vždy rádi poradí.</p>
-            </div>
-
-            <div class="box box--service">
-                <img class="box__icon" src="images/shield.svg">
-                <h4 class="box__title">Podpora na místě</h4>
-                <p class="box__text">V cílové destinaci jsou k dispozici naši delegáti, kteří vám vždy rádi poradí.</p>
+                <div class="box__icon"><img src="images/shield.svg"></div>
+                <div class="box__text"> 
+                    <h4 class="box__title">Vaše bezpečí</h4>
+                    <p class="box__description">Není-li v cílové destinaci v čase odletu bezpečno, vrátíme vám peníze.</p>
+                </div>
             </div>
 
         </section>
         
         <!-- sekce 3 - last minute -->
-        <section class="section">
+        <section class="section last-minute">
             
             <h2 class="section__title">Last minute zájezdy</h2> 
 
-            <div class="grid grid--altarnate">
+            <div class="grid grid--alternate">
                 
-                <div class="trip">
-                    <img class="trip__photo" src="images/lodicka.png" alt="">
+                <div class="trip last-minute-homepage">
+                    <div class="trip__photo"><img src="images/lodicka.png" alt=""></div>
                     <div class="trip__price">15 900 Kč</div>
-                    <h3 class="trip__title--big">Romantika u horského jezera</h3>
+                    <h3 class="trip__title">Romantika u horského jezera</h3>
                     <p class="trip__description">Dechberoucí výhledy na horské štíty a zrcadlovou hladinu jezera.</p>
                     
                 </div>
 
                 <div class="trip">
-                    <img class="trip__photo" src="images/podkova.png" alt="">
+                    <div class="trip__photo"><img src="images/podkova.png" alt=""></div>
                     <div class="trip__price">18 500 Kč</div>
                     <h3 class="trip__title">Grand Canyon</h3>
                 </div>
 
                 <div class="trip">
-                    <img class="trip__photo" src="images/zatoka.png" alt="">
+                    <div class="trip__photo"><img src="images/zatoka.png" alt=""></div>
                     <div class="trip__price">8 900 Kč</div>
                     <h3 class="trip__title">Pěšky po Kanárských ostrovech</h3>
                 </div> 
@@ -115,31 +125,34 @@
         </section>
 
         <!-- sekce 4 - novinky -->
-        <section class="section">
+        <section class="section news">
 
             <h2 class="section__title">Novinky</h2>
+            <div class="section__boxes"> 
+                <div class="box box--news">
+                    <p class="box__date">15. 8. 2020</p>
+                    <h4 class="box__title">Magický Zanzibar</h4>
+                    <p class="box__description">Všichni občané ČR vracející se ze zahraničí zpět se musí řídit podmínkami uvedenými v platném Ochranném opatření Ministerstva zdravotnictví ČR.</p>  
+                </div>
 
-            <div class="box box--news">
-                <p class="box__date">15. 8. 2020</p>
-                <h4 class="box__title">Magický Zanzibar</h4>
-                <p class="box__text">Všichni občané ČR vracející se ze zahraničí zpět se musí řídit podmínkami uvedenými v platném Ochranném opatření Ministerstva zdravotnictví ČR.</p>  
-            </div>
+                <div class="box box--news">
+                    <p class="box__date">31. 9. 2020</p>
+                    <h4 class="box__title">Magický Zanzibar</h4>
+                    <p class="box__description">Zanzibar, při vyslovení jména tohoto kouzelného ostrova, se vybaví vůně exotických koření, příznivé klima, teplé moře, exotická flóra i fauna.</p>  
+                </div>
 
-            <div class="box box--news">
-                <p class="box__date">31. 9. 2020</p>
-                <h4 class="box__title">Magický Zanzibar</h4>
-                <p class="box__text">Zanzibar, při vyslovení jména tohoto kouzelného ostrova, se vybaví vůně exotických koření, příznivé klima, teplé moře, exotická flóra i fauna.</p>  
+                <div class="box box--news">
+                    <p class="box__date">6. 10. 2020</p>
+                    <h4 class="box__title">Na Kubu s PCR testem</h4>
+                    <p class="box__description">Při vstupu do země se buď musíte prokázat negativním PCR testem na Covid-19, který byl proveden max. 72 hodin před příletem do destinace.</p>  
+                </div>
             </div>
+            
 
-            <div class="box box--news">
-                <p class="box__date">6. 10. 2020</p>
-                <h4 class="box__title">Na Kubu s PCR testem</h4>
-                <p class="box__text">Při vstupu do země se buď musíte prokázat negativním PCR testem na Covid-19, který byl proveden max. 72 hodin před příletem do destinace.</p>  
-            </div>
 
         </section>
      
-
+    </main>
 
     <footer class="footer">
         <p class="footer__text">©2021, Czechitas</p> 
